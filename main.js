@@ -13,7 +13,7 @@ const tweetNow = () => {
 
 //FOR GETTING A RANDOM NEW QOUTE
 const getNewQoute = () => {
-  let rNum = Math.floor(Math.random() * 10);
+  let rNum = Math.floor(Math.random() * 1640);
   qoutesData = realData[rNum];
   quotes.innerText = ` ${qoutesData.text} `;
   qoutesData.author == null

@@ -20,7 +20,7 @@ body {
   background: rgb(218, 218, 218);
   font-weight: 100;
   width: 50vw;
-  height: 25vh;
+  height: auto;
   display: grid;
   place-items: center;
   text-align: center;
@@ -95,7 +95,7 @@ p {
   #quotes {
     margin: 0;
     width: 68vw;
-    height: 48vh;
+    height: auto;
   }
   p {
     margin-top: 1rem;
